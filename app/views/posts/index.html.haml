@@ -1,0 +1,13 @@
+.center
+  - @posts.each do |post|
+    - if post.content.present?
+      .center.post
+        .row
+          .user-name
+            = post.user.name
+            &middot;
+            .post-time
+              = time_ago_in_words(post.updated_at)
+        .row
+          .post-content
+            = post.content
