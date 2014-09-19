@@ -13,4 +13,4 @@
 /public/uploads
 
 /log/*.log
-/tmp
+/tmp/*.json
