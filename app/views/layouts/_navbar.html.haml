@@ -7,5 +7,6 @@
   / /responsive
   .menu
     %a.icon-menu{:href => "#nav"} Nav
-    %a.button.primary{:href => "/posts/new"}
-      = fa_icon "pencil-square-o"
+    = link_to_modal (fa_icon "pencil-square-o"), new_post_path, class: "button primary"
+    / %a.button.primary{:href => "/posts/new"}
+    /   = fa_icon "pencil-square-o"

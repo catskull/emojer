@@ -15,4 +15,7 @@
  *= require picnic.min
  *= require emojer
  *= require font-awesome
+ *= require jquery-ui
+ *= require jquery.modal
+ *= require jquery.emojiarea
  */

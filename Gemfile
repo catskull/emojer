@@ -14,6 +14,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'turbolinks'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'font-awesome-rails'
+gem 'jquery-ui-rails'
+gem 'jquery-modal-rails'
+gem 'emoji4rails'
 
 group :development do
   gem 'better_errors'

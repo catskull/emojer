@@ -14,11 +14,20 @@
   }
 }
 
-.user-name {
+.name-and-time {
   float: left;
   .post-time {
     font-size: 10px;
     display: inline;
     margin-top: -5px;
   }
+  .user-name {
+    width: 18px;
+  }
+}
+
+.post-input {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

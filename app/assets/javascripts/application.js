@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require jquery-ui
+//= require jquery.modal
+//= jquery.emojiarea.min
+//= emojis.js

@@ -3,11 +3,11 @@
     - if post.content.present?
       .center.post
         .row
-          .user-name
-            = post.user.name
+          .name-and-time
+            = raw render_emoji (post.user.name), options = {:class=>'user-name'} if post.user.present?
             &middot;
             .post-time
               = time_ago_in_words(post.updated_at)
         .row
           .post-content
-            = post.content
+            = raw render_emoji post.content
